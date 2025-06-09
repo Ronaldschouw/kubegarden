@@ -50,7 +50,7 @@ For the DevContainer to run, there are a few requisites:
     CILIUM_VERSION=1.17.4
 
     ### ARGOCD
-    ARGOCD_REPO_URL=https://github.com/ktijssen/kubegarden.git
+    ARGOCD_REPO_URL=https://github.com/ronaldschouw/kubegarden.git
     ARGOCD_BOOTSTRAP_DIR=argocd/dev/$CLUSTER_TYPE/argocd
     ARGOCD_APPSET_NAME=infra-apps
   ```
