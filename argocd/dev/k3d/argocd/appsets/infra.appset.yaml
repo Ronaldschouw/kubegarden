@@ -9,7 +9,7 @@ spec:
   generators:
     - git:
         repoURL: https://github.com/ronaldschouw/kubegarden.git
-        revision: HEAD
+        revision: dev
         directories:
           - path: "*/dev/k3d/*"
         values:
@@ -45,7 +45,7 @@ spec:
             factor: 1
       source:
         repoURL: https://github.com/ronaldschouw/kubegarden.git
-        targetRevision: HEAD
+        targetRevision: dev
         path: "{{.path.path}}"
       ignoreDifferences:
         # Ingress-nginx
